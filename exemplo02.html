@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Exemplo 02 - Tabelas</title>
+    </head>
+    <body>
+        <header style="background-color:rgb(88, 171, 119)">
+            <br>
+            <h1 style="text-align: center; color:white">Almoço do SESI</h1>
+            <br>
+            <hr>
+        </header>
+        <main>
+            <!--Iniciando tabela-->
+            <table border="1" style="width: 100%;">
+                <!-- Título da tabela -->
+                <caption >Comidas do SESI</caption>
+
+                <!-- Cabeçalho da tela -->
+                <thead style="background-color:rgb(57, 175, 98);">
+                    <!-- Primeira linha do cabeçalho -->
+                    <tr>
+                        <th colspan="6">Dias da Semana</th>
+                    </tr>
+
+                    <!-- Segunda linha do cabeçalho -->
+                    <tr>
+                        <th>Informações</th>
+                        <th>Segunda</th>
+                        <th>Terça</th>
+                        <th>Quarta</th>
+                        <th>Quinta</th>
+                        <th>Sexta</th>
+                    </tr>
+                </thead>
+
+                <!-- <th> deixa a informação centralizada na linha (e em negrito), já o <td> só coloca a informação na lateral -->
+
+                <!-- Corpo da tabela -->
+                <tbody>
+                    <tr>
+                        <td rowspan="2" style="width: 450px; height:450px; background-image: url('https://img2.lovecell.com.br/d312bc8912bbf6b51505678cd99e7e8a0b71d2f6b2f8920ebb5d9c24b4aab405.webp'); color: white;">Informações Nutricionais</td>
+                        <th colspan="5">Arroz + Feijão</th>
+                    </tr>
+
+                    <!-- Segunda linha do corpo da tabela -->
+                    <tr>
+                        <td>Carne de panela com casca de malancia</td>
+                        <td>Fricassê de Frango</td>
+                        <td>Coxa de Frango assada</td>
+                        <td>Peixe crocante</td>
+                        <td>Carne Moída com pimentão assado</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </body>
+</html>
